@@ -16,3 +16,34 @@ for(i=1; i<=6; i++){
         console.log('Hai Perso Schiappa!');
     }
 }
+
+
+
+//Mail
+
+//Chiedi all’utente la sua email:
+   //1)Incomicio creando una lista email registrate;
+
+   const registrati = [
+    'v.lembo1396@gmail.com',
+    'giggettaf@libero.it',
+    'franchino-1@virgilio.it',
+    'lellabella@gmail.com'
+   ];
+
+   //2)creo una stringa email dove l'utente può digitare l'email;
+
+   const userEmail = prompt('Scrivi la tua eamil');
+
+//controlla che sia nella lista di chi può accedere,
+//stampa un messaggio appropriato sull’esito del controllo:
+
+   //se l'email utente è registrata nella lista, potrà giocare al gioco dei dadi sopra descritto e, uscirà stampato 'Gioca!':
+   if(registrati.includes(userEmail)){
+    console.log('Gioca!');
+   }
+
+   //se l'email utente  non è registrata nella lista, uscirà stampato 'Non Registrato!':
+   else{
+    console.log('Non Registrato!');
+   }

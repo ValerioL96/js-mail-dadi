@@ -5,17 +5,10 @@ Gioco dei dadi
 Il giocatore gioca contro il computer.
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer:
 
-  1)Creo un ciclo che avrà:
-     - Il contatore con una variabile che denomino i, a cui do valore 1; 
-     - Pongo la mia condizione, ossia che i sia minore uguale a 6;
-     - A questo punto incremento il valore di i di 1; 
-     - In fine stampo in console; 
-    Questo ciclo mi permetterà di avere un susseguirsi di numeri naturali che partono da una variabile di indice 1 fino ad arrivare a 6,essendo che accetta solo numeri minori di 6;
-
-  2)Icomincio creando due numeri random un per il computer e uno per l'utente;   
+  1)Icomincio creando due numeri random un per il computer e uno per l'utente;   
 
 Stabilire il vincitore, in base a chi fa il punteggio più alto:
-  3)Risolvo la condizione che mi pone l'esercizio:
+  2)Risolvo la condizione che mi pone l'esercizio:
 
        se il numero scelto dall'utente è maggiore del numero del computer, in console uscirà stampato 'Hai Vinto!':
           - Pongo la condizione che  il numero utente è maggiore del numero del computer;
